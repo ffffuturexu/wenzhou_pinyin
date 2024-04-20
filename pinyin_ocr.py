@@ -24,12 +24,7 @@ import pandas as pd
 import sys, os, json
 from utils.my_upscaler import *
 from utils.config import *
-
-def char2unicode(char):
-    return char.encode('unicode_escape').decode()
-
-def unicode2char(unicode):
-    return unicode.encode().decode('unicode_escape')
+from tool import *
 
 def get_request_table(char):
     url = f"https://wu-chinese.com/minidict/search.php?searchkey={char}&searchlang=uentseu&category="
