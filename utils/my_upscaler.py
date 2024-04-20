@@ -116,6 +116,7 @@ def nearestNeighboor(img, scale):
 
 def upscale(path, scale, technique="nearest"):
     # img = cv2.imread(imageName)
+    # print("Path: ", path)
     img = cv2.imdecode(np.fromfile(path, dtype=np.uint8), 1)
     # print("Image: ", img)
     if technique == "nearest":
@@ -125,7 +126,7 @@ def upscale(path, scale, technique="nearest"):
         resized = bilinearInterpolation(resized, scale)
     
     # cv2.imwrite("new" + imageName, resized)
-    newpath = f'{pinyin_img_upscaled_path}{path.split("/")[1].split(".")[0]}_upscaled.png'
+    newpath = f'{pinyin_img_upscaled_path}{path.split("/")[-1].split(".")[0]}_upscaled.png'
     cv2.imencode('.png', resized)[1].tofile(newpath)
     return newpath
 

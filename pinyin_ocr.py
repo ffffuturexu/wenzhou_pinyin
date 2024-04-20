@@ -63,18 +63,17 @@ def parse_table(table, char):
         l.append(row)
 
     result_df = pd.DataFrame(l, columns=['#', 'fanti', 'jianti', 'pinyin', 'shengdiao', 'beizhu'])
-    shengdiao = result_df['shengdiao'][0].split('/')[1].strip()
+    # shengdiao = result_df['shengdiao'][0].split('/')[1].strip()
 
-    # Save the image
-    img_url = base_url + result_df['pinyin'][0] # TODO: consider the heteronyms. only the first one is considered now.
-    img_response = requests.get(img_url, stream=True)
-    img_path = f'{pinyin_img_ori_path}{char}.png'
-    with open(img_path, 'wb') as out_file:
-        img_response.raw.decode_content = True
-        shutil.copyfileobj(img_response.raw, out_file)
-    del img_response
-
-    return shengdiao
+    # process the heteronyms
+    for row in result_df.iterrows():
+        img_url = base_url + row[1]['pinyin']
+        img_response = requests.get(img_url, stream=True)
+        img_path = f'{pinyin_img_ori_path}{char}_{row[1]["#"]}_{row[1]["shengdiao"].split("/")[1].strip()}.png'
+        with open(img_path, 'wb') as out_file:
+            img_response.raw.decode_content = True
+            shutil.copyfileobj(img_response.raw, out_file)
+        del img_response
 
 def upscale_image(char, scale_percent=2, method="nearest"):
     img_path = f'{pinyin_img_ori_path}{char}.png'
@@ -91,9 +90,21 @@ def ocr_pinyin_image(upscaled_path):
 
 def parse_ocr_result(char, ocr_result, shengdiao):
     pinyin = ocr_result[0][1] 
-    print(f"Character: {char}, Pinyin: {pinyin}, Shengdiao: {shengdiao}")
     char_unicode = char2unicode(char)
-    wz_pinyin_dict[char_unicode] = f"{pinyin}{shengdiao}"
+    print(f"Character: {char}, Pinyin: {pinyin}, Shengdiao: {shengdiao}, Unicode: {char_unicode}")
+    if char_unicode not in wz_pinyin_dict:
+        wz_pinyin_dict[char_unicode] = [f"{pinyin}{shengdiao}"]
+    else:
+        wz_pinyin_dict[char_unicode].append(f"{pinyin}{shengdiao}")
+
+def upscale_and_ocr():
+    for img_path in os.listdir(pinyin_img_ori_path):
+        # print(f"Processing image: {img_path}")
+        char = img_path.split('_')[0]
+        shengdiao = img_path.split('_')[-1].split('.')[0]
+        upscaled_path = upscale_image(img_path.split('.')[0])
+        ocr_result = ocr_pinyin_image(upscaled_path)
+        parse_ocr_result(char, ocr_result, shengdiao)
 
 def main(input_sentence):
     char_list = "".join([w for w in input_sentence if w != " " and w not in zh_punts])
@@ -104,10 +115,10 @@ def main(input_sentence):
             continue
         print(f"Processing character: {char}")
         table = get_request_table(char)
-        shengdiao = parse_table(table, char)
-        upscaled_path = upscale_image(char)
-        ocr_result = ocr_pinyin_image(upscaled_path)
-        parse_ocr_result(char, ocr_result, shengdiao)
+        parse_table(table, char)
+        
+    # after getting all the pinyin images, upscale and OCR them
+    upscale_and_ocr() 
     
     
 if __name__ == "__main__":
