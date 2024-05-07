@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+
 
 # A Wenzhouness parallel corpus fetcher from Wenzhouhua Cidian
 # Author: Weilai Xu
@@ -8,7 +7,9 @@ from __future__ import unicode_literals
 
 import requests
 import os, json, sys
-# from data.wzhcd_test import response_dict
+from data.wzhcd_test import response_dict
+from urllib.parse import unquote, urlencode
+import base64
 
 
 def get_target_value(key, dic, tmp_list):
@@ -55,40 +56,63 @@ def download_audio(audio_url, save_path):
         f.write(audio_res.content)
         f.flush()
 
-def process_list(result_list):
-    if len(result_list) == 0:
+def process_senses_list(sense_result_list, replaced_word): # key: JsonContent
+    if len(sense_result_list) == 0:
         return
     
     processed = []
-    for i in result_list:
+    for i in sense_result_list:
         for entry in i:
             if entry["AudioUrl"] == "":
                 continue
-            print(f'content is: {entry["Content"]}')
-            processed.append(f'{entry["Content"]}\t{entry["AudioUrl"]}\n') # the content includes ~ symbol, which needs to be replaced by the actual word
-            download_audio(entry["AudioUrl"], entry["AudioUrl"])
+            content = entry["Content"].replace('～', replaced_word) # the content includes ~ symbol, which needs to be replaced by the actual word
+            print(f'content is: {content}')
+            processed.append(f'{content}\t{entry["AudioUrl"][1:]}\n') # remove the first /
+            # download_audio(entry["AudioUrl"], entry["AudioUrl"])
+
+    return processed
+
+def process_entry_list(entry_result_list):
+    if len(entry_result_list) == 0:
+        return
+    
+    processed = []
+    for sense_entry in entry_result_list:
+        for entry_dict in sense_entry:
+            entry_name = entry_dict['EntryName']
+            for entry in entry_dict['JsonContent']:
+                if entry["AudioUrl"] == "":
+                    continue
+                content = entry["Content"].replace('～', entry_name)
+                print(f'content is: {content}')
+                processed.append(f'{content}\t{entry["AudioUrl"][1:]}\n')
+                # download_audio(entry["AudioUrl"], entry["AudioUrl"])         
 
     return processed
 
 if __name__ == '__main__':
+    wordName = "黄"
+    print(wordName)
     url = "https://wzh.wzlib.cn/HttpApi/DbWord/GetWordDetail"
-    wordName = "一"
-    headers = {
+    data = {
         "userID": "4e1515e588504361837e57829f5cb6cc",
         "wordName": wordName,
     }
 
-    response = requests.post(url, headers=headers)
+    response = requests.post(url, data=data)
 
     response_dict = response.json()
 
-    temp_list = []
-    target_key = "JsonContent"
+    SensesDetail_list = get_target_value("SensesDetail", response_dict, []) 
+    SensesDetail_dict = {"SensesDetail": SensesDetail_list}
+    JsonContent_dict = get_target_value("JsonContent", SensesDetail_dict, [])
+    # print(f'json content: {JsonContent_dict}')
+    parallel = process_senses_list(JsonContent_dict, replaced_word=wordName) # the replaced word is the wordName
 
-    result_list = get_target_value(target_key, response_dict, temp_list)
-    print(f'length of result_list: {len(result_list)}')
+    EntryDetail_list = get_target_value("EntryDetail", response_dict, [])
+    # print(f'entry detail list: {EntryDetail_list}')
+    parallel += process_entry_list(EntryDetail_list)
 
-    parallel = process_list(result_list)
-    with open('wzhcd_corpus', 'a', encoding='utf-8') as f:
+    with open('wzhcd_corpus', 'w', encoding='utf-8') as f:
         f.writelines(parallel)
 
