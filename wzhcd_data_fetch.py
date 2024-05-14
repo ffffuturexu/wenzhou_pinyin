@@ -90,9 +90,7 @@ def process_entry_list(entry_result_list):
 
     return processed
 
-if __name__ == '__main__':
-    wordName = "黄"
-    print(wordName)
+def fetch_wzhcd_data(wordName):
     url = "https://wzh.wzlib.cn/HttpApi/DbWord/GetWordDetail"
     data = {
         "userID": "4e1515e588504361837e57829f5cb6cc",
@@ -100,6 +98,9 @@ if __name__ == '__main__':
     }
 
     response = requests.post(url, data=data)
+    if response.status_code != 200:
+        print(f'Error: {response.status_code}')
+        return
 
     response_dict = response.json()
 
@@ -113,6 +114,19 @@ if __name__ == '__main__':
     # print(f'entry detail list: {EntryDetail_list}')
     parallel += process_entry_list(EntryDetail_list)
 
-    with open('wzhcd_corpus', 'w', encoding='utf-8') as f:
-        f.writelines(parallel)
+    return parallel
+
+if __name__ == '__main__':
+
+    wordName_list = ["一", "黄", "狗"]
+
+    parallel_list = []
+    for wordName in wordName_list:
+        print(wordName)
+
+        parallel = fetch_wzhcd_data(wordName)
+        parallel_list += parallel
+    
+    with open('wzhcd_corpus_2', 'w', encoding='utf-8') as f:
+        f.writelines(parallel_list)
 
