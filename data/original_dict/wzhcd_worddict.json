@@ -1,0 +1,1618 @@
+[
+    {
+        "WordName": "厄",
+        "CodeNum": "3514",
+        "Stoke": 4,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z3514d1",
+                "AudioCode": "z3514d1",
+                "AudioUrl": "/Audio/z3514d1/z3514d1.mp3",
+                "WordHeadName": "厄",
+                "CodeNum": "3514",
+                "Stoke": 4,
+                "Traditional": "",
+                "Allograph": "戹阨",
+                "Pinyin": "è",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影麦入梗开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z3514d1y01",
+                        "SensesName": "➊困苦，灾难",
+                        "TextContent": "～运。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～运",
+                                "AudioUrl": "/Audio/z3514d1/z3514d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z3514d1y02",
+                        "SensesName": "➋阻塞",
+                        "TextContent": "阻～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "阻～",
+                                "AudioUrl": "/Audio/z3514d1/z3514d1y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z3514d1y03",
+                        "SensesName": "➌险要的地方",
+                        "TextContent": "险～。",
+                        "JsonContent": [
+                            {
+                                "Content": "险～。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "呃",
+        "CodeNum": "3703",
+        "Stoke": 7,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z3703d1",
+                "AudioCode": "z3703d1",
+                "AudioUrl": "/Audio/z3703d1/z3703d1.mp3",
+                "WordHeadName": "呃",
+                "CodeNum": "3703",
+                "Stoke": 7,
+                "Traditional": "",
+                "Allograph": "",
+                "Pinyin": "è",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影麦入梗开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z3703d1y01",
+                        "SensesName": "➊气逆上冲作声",
+                        "TextContent": "～逆。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～逆",
+                                "AudioUrl": "/Audio/z3703d1/z3703d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "扼",
+        "CodeNum": "0619",
+        "Stoke": 7,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z0619d1",
+                "AudioCode": "z0619d1",
+                "AudioUrl": "/Audio/z0619d1/z0619d1.mp3",
+                "WordHeadName": "扼",
+                "CodeNum": "0619",
+                "Stoke": 7,
+                "Traditional": "",
+                "Allograph": "搤",
+                "Pinyin": "è",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影麦入梗开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0619d1y01",
+                        "SensesName": "➊用力掐着，抓住",
+                        "TextContent": "～杀｜～腕。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～杀",
+                                "AudioUrl": "/Audio/z0619d1/z0619d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～腕",
+                                "AudioUrl": "/Audio/z0619d1/z0619d1y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0619d1y02",
+                        "SensesName": "➋折叠；捆扎",
+                        "TextContent": "～粽｜～纸人儿。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～粽",
+                                "AudioUrl": "/Audio/z0619d1/z0619d1y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～纸人儿",
+                                "AudioUrl": "/Audio/z0619d1/z0619d1y0202.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0619d1y03",
+                        "SensesName": "➌抓要点，简要",
+                        "TextContent": "～要。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～要",
+                                "AudioUrl": "/Audio/z0619d1/z0619d1y0301.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0619d1y04",
+                        "SensesName": "➍把守，控制",
+                        "TextContent": "～制。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～制",
+                                "AudioUrl": "/Audio/z0619d1/z0619d1y0401.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "轭",
+        "CodeNum": "3893",
+        "Stoke": 8,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z3893d1",
+                "AudioCode": "z3893d1",
+                "AudioUrl": "/Audio/z3893d1/z3893d1.mp3",
+                "WordHeadName": "轭",
+                "CodeNum": "3893",
+                "Stoke": 8,
+                "Traditional": "軛",
+                "Allograph": "",
+                "Pinyin": "è",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影麦入梗开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z3893d1y01",
+                        "SensesName": "➊牛马拉物件时驾在脖子上的器具",
+                        "TextContent": "牛～挂起着拖田。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "牛～挂起着拖田",
+                                "AudioUrl": "/Audio/z3893d1/z3893d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "轧",
+        "CodeNum": "0224",
+        "Stoke": 5,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z0224d1",
+                "AudioCode": "z0224d1",
+                "AudioUrl": "/Audio/z0224d1/z0224d1.mp3",
+                "WordHeadName": "轧",
+                "CodeNum": "0224",
+                "Stoke": 5,
+                "Traditional": "軋",
+                "Allograph": "",
+                "Pinyin": "ɡá",
+                "Phonetic": [
+                    {
+                        "Spell": "ɡa",
+                        "Symbol": "212"
+                    }
+                ],
+                "ApproximateTone": "音嘎⑵。",
+                "Rhyme": "精咍平蟹开一。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0224d1y01",
+                        "SensesName": "➊挤，拥挤",
+                        "TextContent": "～米｜逮你尾巴儿～牢啊，恁难过相｜车里人～显｜汽车里人多显，我～不底｜～到戏台下，戏已做团圆｜摆拦街福许日，路上人沃～抬起。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～米",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "逮你尾巴儿～牢啊，恁难过相",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            },
+                            {
+                                "Content": "车里人～显",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0103.mp3",
+                                "Seq": 5
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 6
+                            },
+                            {
+                                "Content": "汽车里人多显，我～不底",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0104.mp3",
+                                "Seq": 7
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 8
+                            },
+                            {
+                                "Content": "～到戏台下，戏已做团圆",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0105.mp3",
+                                "Seq": 9
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 10
+                            },
+                            {
+                                "Content": "摆拦街福许日，路上人沃～抬起",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0106.mp3",
+                                "Seq": 11
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 12
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0224d1y02",
+                        "SensesName": "➋结交",
+                        "TextContent": "～姘头。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～姘头",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0224d1y03",
+                        "SensesName": "➌结算；核对",
+                        "TextContent": "帐～不拢｜月底着～账，科室里大家人沃着忙。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "帐～不拢",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0301.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "月底着～账，科室里大家人沃着忙",
+                                "AudioUrl": "/Audio/z0224d1/z0224d1y0302.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            },
+            {
+                "WordHeadCode": "z0224d2",
+                "AudioCode": "z0224d2",
+                "AudioUrl": "/Audio/z0224d2/z0224d2.mp3",
+                "WordHeadName": "轧",
+                "CodeNum": "0224",
+                "Stoke": 5,
+                "Traditional": "軋",
+                "Allograph": "",
+                "Pinyin": "yà",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影黠入山开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0224d2y01",
+                        "SensesName": "➊碾压，滚压",
+                        "TextContent": "脚匄车～断爻｜～路机｜～死一只鸡。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "脚匄车～断爻",
+                                "AudioUrl": "/Audio/z0224d2/z0224d2y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～路机",
+                                "AudioUrl": "/Audio/z0224d2/z0224d2y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            },
+                            {
+                                "Content": "～死一只鸡",
+                                "AudioUrl": "/Audio/z0224d2/z0224d2y0103.mp3",
+                                "Seq": 5
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 6
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0224d2y02",
+                        "SensesName": "➋排挤",
+                        "TextContent": "倾～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "倾～",
+                                "AudioUrl": "/Audio/z0224d2/z0224d2y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0224d2y03",
+                        "SensesName": "➌象声词。形容物体挤压的声音或机器开动时发出的声响",
+                        "TextContent": "该张藤椅坐起～～声｜机器开起～～声。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "该张藤椅坐起～～声",
+                                "AudioUrl": "/Audio/z0224d2/z0224d2y0301.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "机器开起～～声",
+                                "AudioUrl": "/Audio/z0224d2/z0224d2y0302.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            },
+            {
+                "WordHeadCode": "z0224d3",
+                "AudioCode": "z0224d3",
+                "AudioUrl": "/Audio/z0224d3/z0224d3.mp3",
+                "WordHeadName": "轧",
+                "CodeNum": "0224",
+                "Stoke": 5,
+                "Traditional": "軋",
+                "Allograph": "",
+                "Pinyin": "zhá",
+                "Phonetic": [
+                    {
+                        "Spell": "tsa",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音责",
+                "Rhyme": "*庄黠入山开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0224d3y01",
+                        "SensesName": "➊用机器把钢坯压成一定形状的钢材",
+                        "TextContent": "～钢｜～钢机。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～钢",
+                                "AudioUrl": "/Audio/z0224d3/z0224d3y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～钢",
+                                "AudioUrl": "/Audio/z0224d3/z0224d3y0101.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "机。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "压",
+        "CodeNum": "0385",
+        "Stoke": 6,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z0385d1",
+                "AudioCode": "z0385d1",
+                "AudioUrl": "/Audio/z0385d1/z0385d1.mp3",
+                "WordHeadName": "压",
+                "CodeNum": "0385",
+                "Stoke": 6,
+                "Traditional": "壓",
+                "Allograph": "",
+                "Pinyin": "yā",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音鸭",
+                "Rhyme": "影狎入咸开二。",
+                "Capital": "",
+                "ShowMoreBtn": true,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0385d1y01",
+                        "SensesName": "➊从上面或其他方面加重力",
+                        "TextContent": "石头～牢｜脚骨～断爻｜～扁爻｜～碎爻｜力是～大嘅，胆是吓大嘅。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "石头～牢",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "脚骨～断爻",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            },
+                            {
+                                "Content": "～扁爻",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0103.mp3",
+                                "Seq": 5
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 6
+                            },
+                            {
+                                "Content": "～碎爻",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0104.mp3",
+                                "Seq": 7
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 8
+                            },
+                            {
+                                "Content": "力是～大嘅，胆是吓大嘅",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0105.mp3",
+                                "Seq": 9
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 10
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0385d1y02",
+                        "SensesName": "➋用威力制服、镇服",
+                        "TextContent": "用权逮人～倒。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "用权逮人～倒",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0385d1y03",
+                        "SensesName": "➌下降；控制",
+                        "TextContent": "价钿～落少厘｜阵脚～牢坚厘。",
+                        "JsonContent": [
+                            {
+                                "Content": "价钿～落少厘｜",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "阵脚～牢坚厘",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0302.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0385d1y04",
+                        "SensesName": "➍搁置不动",
+                        "TextContent": "积～货｜多显嘅物事～在搭卖不爻。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "积～货",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0401.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "多显嘅物事～在搭卖不爻",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0402.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0385d1y05",
+                        "SensesName": "➎压力",
+                        "TextContent": "血～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "血～",
+                                "AudioUrl": "/Audio/z0385d1/z0385d1y0501.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": [
+                    {
+                        "EntryCode": "z0385d1c01",
+                        "AudioCode": "z0385d1c01",
+                        "AudioUrl": "/Audio/z0385d1/z0385d1c01.mp3",
+                        "EntryName": "压台戏",
+                        "Phonetic": [
+                            {
+                                "Spell": "a",
+                                "Symbol": "323"
+                            },
+                            {
+                                "Spell": "de",
+                                "Symbol": "31"
+                            },
+                            {
+                                "Spell": "sɿ",
+                                "Symbol": "42"
+                            }
+                        ],
+                        "TextContent": "压轴戏。",
+                        "JsonContent": [
+                            {
+                                "Content": "压轴戏。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    },
+                    {
+                        "EntryCode": "z0385d1c02",
+                        "AudioCode": "z0385d1c02",
+                        "AudioUrl": "/Audio/z0385d1/z0385d1c02.mp3",
+                        "EntryName": "压岁包儿",
+                        "Phonetic": [
+                            {
+                                "Spell": "a",
+                                "Symbol": "323"
+                            },
+                            {
+                                "Spell": "sɿ",
+                                "Symbol": "42"
+                            },
+                            {
+                                "Spell": "puɔ",
+                                "Symbol": "33"
+                            },
+                            {
+                                "Spell": "ŋ",
+                                "Symbol": "31"
+                            }
+                        ],
+                        "TextContent": "压岁钱。",
+                        "JsonContent": [
+                            {
+                                "Content": "压岁钱。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    },
+                    {
+                        "EntryCode": "z0385d1c03",
+                        "AudioCode": "z0385d1c03",
+                        "AudioUrl": "/Audio/z0385d1/z0385d1c03.mp3",
+                        "EntryName": "压番薯",
+                        "Phonetic": [
+                            {
+                                "Spell": "a",
+                                "Symbol": "323"
+                            },
+                            {
+                                "Spell": "fa",
+                                "Symbol": "33"
+                            },
+                            {
+                                "Spell": "zei",
+                                "Symbol": "34"
+                            }
+                        ],
+                        "TextContent": "在大田中插种甘薯苗。",
+                        "JsonContent": [
+                            {
+                                "Content": "在大田中插种甘薯苗。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "WordName": "阿",
+        "CodeNum": "0913",
+        "Stoke": 7,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z0913d1",
+                "AudioCode": "z0913d1",
+                "AudioUrl": "/Audio/z0913d1/z0913d1.mp3",
+                "WordHeadName": "阿",
+                "CodeNum": "0913",
+                "Stoke": 7,
+                "Traditional": "",
+                "Allograph": "",
+                "Pinyin": "ā",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "33"
+                    }
+                ],
+                "ApproximateTone": "音埃",
+                "Rhyme": "影歌平果开一。",
+                "Capital": "",
+                "ShowMoreBtn": true,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0913d1y01",
+                        "SensesName": "➊前缀。①附着在姓、名、排行前",
+                        "TextContent": "～三｜～飞。②附着在某些亲属称谓前：～太｜～爷｜～妈｜～伯。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～三",
+                                "AudioUrl": "/Audio/z0913d1/z0913d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～飞",
+                                "AudioUrl": "/Audio/z0913d1/z0913d1y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。②附着在某些亲属称谓前：",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            },
+                            {
+                                "Content": "～太",
+                                "AudioUrl": "/Audio/z0913d1/z0913d1y0103.mp3",
+                                "Seq": 5
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 6
+                            },
+                            {
+                                "Content": "～爷",
+                                "AudioUrl": "/Audio/z0913d1/z0913d1y0104.mp3",
+                                "Seq": 7
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 8
+                            },
+                            {
+                                "Content": "～妈",
+                                "AudioUrl": "/Audio/z0913d1/z0913d1y0105.mp3",
+                                "Seq": 9
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 10
+                            },
+                            {
+                                "Content": "～伯",
+                                "AudioUrl": "/Audio/z0913d1/z0913d1y0106.mp3",
+                                "Seq": 11
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 12
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": [
+                    {
+                        "EntryCode": "z0913d1c01",
+                        "AudioCode": "z0913d1c01",
+                        "AudioUrl": "/Audio/z0913d1/z0913d1c01.mp3",
+                        "EntryName": "阿大",
+                        "Phonetic": [
+                            {
+                                "Spell": "a",
+                                "Symbol": "33"
+                            },
+                            {
+                                "Spell": "da",
+                                "Symbol": "11"
+                            }
+                        ],
+                        "TextContent": "对叔父或父亲的称呼。",
+                        "JsonContent": [
+                            {
+                                "Content": "对叔父或父亲的称呼。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    },
+                    {
+                        "EntryCode": "z0913d1c02",
+                        "AudioCode": "z0913d1c02",
+                        "AudioUrl": "/Audio/z0913d1/z0913d1c02.mp3",
+                        "EntryName": "阿大",
+                        "Phonetic": [
+                            {
+                                "Spell": "a",
+                                "Symbol": "33"
+                            },
+                            {
+                                "Spell": "dəu",
+                                "Symbol": "11"
+                            }
+                        ],
+                        "TextContent": "对大哥的叙称。",
+                        "JsonContent": [
+                            {
+                                "Content": "对大哥的叙称。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    },
+                    {
+                        "EntryCode": "z0913d1c03",
+                        "AudioCode": "z0913d1c03",
+                        "AudioUrl": "/Audio/z0913d1/z0913d1c03.mp3",
+                        "EntryName": "阿会儿",
+                        "Phonetic": [
+                            {
+                                "Spell": "a",
+                                "Symbol": "33"
+                            },
+                            {
+                                "Spell": "vai",
+                                "Symbol": "11"
+                            },
+                            {
+                                "Spell": "ŋ",
+                                "Symbol": "31"
+                            }
+                        ],
+                        "TextContent": "谑指过分能干的人。",
+                        "JsonContent": [
+                            {
+                                "Content": "谑指过分能干的人。",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "WordHeadCode": "z0913d2",
+                "AudioCode": "z0913d2",
+                "AudioUrl": "/Audio/z0913d2/z0913d2.mp3",
+                "WordHeadName": "阿",
+                "CodeNum": "0913",
+                "Stoke": 7,
+                "Traditional": "",
+                "Allograph": "",
+                "Pinyin": "ē",
+                "Phonetic": [
+                    {
+                        "Spell": "u",
+                        "Symbol": "33"
+                    }
+                ],
+                "ApproximateTone": "音乌",
+                "Rhyme": "影歌平果开一。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0913d2y01",
+                        "SensesName": "➊山东东阿",
+                        "TextContent": "～胶。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～胶",
+                                "AudioUrl": "/Audio/z0913d2/z0913d2y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            },
+            {
+                "WordHeadCode": "z0913d3",
+                "AudioCode": "z0913d3",
+                "AudioUrl": "/Audio/z0913d3/z0913d3.mp3",
+                "WordHeadName": "阿",
+                "CodeNum": "0913",
+                "Stoke": 7,
+                "Traditional": "",
+                "Allograph": "",
+                "Pinyin": "ē",
+                "Phonetic": [
+                    {
+                        "Spell": "o",
+                        "Symbol": "33"
+                    }
+                ],
+                "ApproximateTone": "音蛙",
+                "Rhyme": "影歌平果开一。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0913d3y01",
+                        "SensesName": "➊迎合；曲从",
+                        "TextContent": "～谀｜刚正不～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～谀",
+                                "AudioUrl": "/Audio/z0913d3/z0913d3y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "刚正不～",
+                                "AudioUrl": "/Audio/z0913d3/z0913d3y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0913d3y02",
+                        "SensesName": "➋阿弥陀佛，佛教指西方极乐世界的教主",
+                        "TextContent": "～四个字，只讲别人不讲自。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～四个字，只讲别人不讲自",
+                                "AudioUrl": "/Audio/z0913d3/z0913d3y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "押",
+        "CodeNum": "0965",
+        "Stoke": 8,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z0965d1",
+                "AudioCode": "z0965d1",
+                "AudioUrl": "/Audio/z0965d1/z0965d1.mp3",
+                "WordHeadName": "押",
+                "CodeNum": "0965",
+                "Stoke": 8,
+                "Traditional": "",
+                "Allograph": "",
+                "Pinyin": "yā",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影狎入咸开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z0965d1y01",
+                        "SensesName": "➊在公文、契约、合同上签字或画符号，以作凭信",
+                        "TextContent": "～署｜画～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～署",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "画～",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0965d1y02",
+                        "SensesName": "➋把财物交给对方做担保",
+                        "TextContent": "～金｜抵～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～金",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0201.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "抵～",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0202.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0965d1y03",
+                        "SensesName": "➌拘留；扣留",
+                        "TextContent": "关～｜扣～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "关～",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0301.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "扣～",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0302.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0965d1y04",
+                        "SensesName": "➍途中跟随看管或照料",
+                        "TextContent": "～车｜～运。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～车",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0401.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～运",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0402.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            }
+                        ]
+                    },
+                    {
+                        "SensesCode": "z0965d1y05",
+                        "SensesName": "➎诗赋用韵",
+                        "TextContent": "～韵。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～韵",
+                                "AudioUrl": "/Audio/z0965d1/z0965d1y0501.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "鸭",
+        "CodeNum": "1892",
+        "Stoke": 10,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z1892d1",
+                "AudioCode": "z1892d1",
+                "AudioUrl": "/Audio/z1892d1/z1892d1.mp3",
+                "WordHeadName": "鸭",
+                "CodeNum": "1892",
+                "Stoke": 10,
+                "Traditional": "鴨",
+                "Allograph": "",
+                "Pinyin": "yā",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影狎入咸开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z1892d1y01",
+                        "SensesName": "➊家禽的一种，通常有家鸭、野鸭两种",
+                        "TextContent": "～卵｜～棚｜烤～｜～毛被｜～绒被｜田鸡生儿逮～忙｜鸡头搭搭扁就是～。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～卵",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            },
+                            {
+                                "Content": "～棚",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0102.mp3",
+                                "Seq": 3
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 4
+                            },
+                            {
+                                "Content": "烤～",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0103.mp3",
+                                "Seq": 5
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 6
+                            },
+                            {
+                                "Content": "～毛被",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0104.mp3",
+                                "Seq": 7
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 8
+                            },
+                            {
+                                "Content": "～绒被",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0105.mp3",
+                                "Seq": 9
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 10
+                            },
+                            {
+                                "Content": "田鸡生儿逮～忙",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0106.mp3",
+                                "Seq": 11
+                            },
+                            {
+                                "Content": "｜",
+                                "AudioUrl": "",
+                                "Seq": 12
+                            },
+                            {
+                                "Content": "鸡头搭搭扁就是～",
+                                "AudioUrl": "/Audio/z1892d1/z1892d1y0107.mp3",
+                                "Seq": 13
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 14
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    },
+    {
+        "WordName": "揠",
+        "CodeNum": "5063",
+        "Stoke": 12,
+        "ViewCount": 0,
+        "IsCollection": false,
+        "WordHeadDetail": [
+            {
+                "WordHeadCode": "z5063d1",
+                "AudioCode": "z5063d1",
+                "AudioUrl": "/Audio/z5063d1/z5063d1.mp3",
+                "WordHeadName": "揠",
+                "CodeNum": "5063",
+                "Stoke": 12,
+                "Traditional": "",
+                "Allograph": "",
+                "Pinyin": "yà",
+                "Phonetic": [
+                    {
+                        "Spell": "a",
+                        "Symbol": "323"
+                    }
+                ],
+                "ApproximateTone": "音压",
+                "Rhyme": "影黠入山开二。",
+                "Capital": "",
+                "ShowMoreBtn": false,
+                "SensesDetail": [
+                    {
+                        "SensesCode": "z5063d1y01",
+                        "SensesName": "➊拔",
+                        "TextContent": "～苗助長。",
+                        "JsonContent": [
+                            {
+                                "Content": "",
+                                "AudioUrl": "",
+                                "Seq": 0
+                            },
+                            {
+                                "Content": "～苗助長",
+                                "AudioUrl": "/Audio/z5063d1/z5063d1y0101.mp3",
+                                "Seq": 1
+                            },
+                            {
+                                "Content": "。",
+                                "AudioUrl": "",
+                                "Seq": 2
+                            }
+                        ]
+                    }
+                ],
+                "EntryDetail": []
+            }
+        ]
+    }
+]

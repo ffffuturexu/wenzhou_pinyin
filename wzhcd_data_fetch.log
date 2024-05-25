@@ -1,0 +1,35 @@
+2024-05-23 17:17:29,008 - root - INFO - Processing word: 厄 | \u5384
+2024-05-23 17:17:29,011 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:17:32,383 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 2436
+2024-05-23 17:17:37,387 - root - INFO - Processing word: 呃 | \u5443
+2024-05-23 17:17:37,387 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:17:39,084 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 1485
+2024-05-23 17:17:43,089 - root - INFO - Processing word: 扼 | \u627c
+2024-05-23 17:17:43,089 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:17:45,250 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 3968
+2024-05-23 17:17:48,257 - root - INFO - Processing word: 轭 | \u8f6d
+2024-05-23 17:17:48,257 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:17:50,450 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 1542
+2024-05-23 17:17:54,455 - root - INFO - Processing word: 轧 | \u8f67
+2024-05-23 17:17:54,455 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:17:56,618 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 10026
+2024-05-23 17:18:00,626 - root - INFO - Processing word: 压 | \u538b
+2024-05-23 17:18:00,626 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:02,351 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 8191
+2024-05-23 17:18:02,351 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:04,035 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetEntry HTTP/1.1" 200 2751
+2024-05-23 17:18:05,039 - root - INFO - Processing word: 阿 | \u963f
+2024-05-23 17:18:05,039 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:06,818 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 8781
+2024-05-23 17:18:06,833 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:08,968 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetEntry HTTP/1.1" 200 8698
+2024-05-23 17:18:12,988 - root - INFO - Processing word: 押 | \u62bc
+2024-05-23 17:18:12,988 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:14,944 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 5239
+2024-05-23 17:18:17,950 - root - INFO - Processing word: 鸭 | \u9e2d
+2024-05-23 17:18:17,952 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:19,919 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 3410
+2024-05-23 17:18:20,940 - root - INFO - Processing word: 揠 | \u63e0
+2024-05-23 17:18:20,940 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): wzh.wzlib.cn:443
+2024-05-23 17:18:22,685 - urllib3.connectionpool - DEBUG - https://wzh.wzlib.cn:443 "POST /HttpApi/DbWord/GetWordDetail HTTP/1.1" 200 1485
+2024-05-23 17:18:25,690 - root - INFO - the number of parallel sentences: 66

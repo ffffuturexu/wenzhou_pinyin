@@ -462,3 +462,341 @@ response_dict = {
     ]
   }
 }
+
+entry_dict = {
+  "Result": "true",
+  "Info": "成功",
+  "CreateDt": "2024-05-20 22:30:02",
+  "Data": [
+    {
+      "EntryCode": "z1198d1c01",
+      "AudioCode": "z1198d1c01",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c01.mp3",
+      "EntryName": "狗生嘅儿",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "sɛ",
+          "Symbol": "33"
+        },
+        {
+          "Spell": "ɡe",
+          "Symbol": "0"
+        },
+        {
+          "Spell": "ŋ",
+          "Symbol": "31"
+        }
+      ],
+      "TextContent": "温州话中常用骂詈语。骂人为畜生。",
+      "JsonContent": [
+        {
+          "Content": "温州话中常用骂詈语。骂人为畜生。",
+          "AudioUrl": "",
+          "Seq": 0
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c02",
+      "AudioCode": "z1198d1c02",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c02.mp3",
+      "EntryName": "狗屁倒糟",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "pʻei",
+          "Symbol": "42"
+        },
+        {
+          "Spell": "tə",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "tsə",
+          "Symbol": "33"
+        }
+      ],
+      "TextContent": "①指做事不讲信誉、不合情理，说话不算数，不守诺言。②也喻吝啬、小气、令人不屑：昨夜讲好你肯嘅，訾那亦反悔爻罢，恁～。",
+      "JsonContent": [
+        {
+          "Content": "①指做事不讲信誉、不合情理，说话不算数，不守诺言。②也喻吝啬、小气、令人不屑：昨夜讲好你肯嘅，訾那亦反悔爻罢，恁～。",
+          "AudioUrl": "",
+          "Seq": 0
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c03",
+      "AudioCode": "z1198d1c03",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c03.mp3",
+      "EntryName": "狗争骨",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "dzɛ",
+          "Symbol": "11"
+        },
+        {
+          "Spell": "ky",
+          "Symbol": "323"
+        }
+      ],
+      "TextContent": "喻人彼此为小事情而争吵，互不相让：你两个着好来嬉嬉，覅整日～恁。",
+      "JsonContent": [
+        {
+          "Content": "喻人彼此为小事情而争吵，互不相让：",
+          "AudioUrl": "",
+          "Seq": 0
+        },
+        {
+          "Content": "你两个着好来嬉嬉，覅整日～恁",
+          "AudioUrl": "/Audio/z1198d1/z1198d1c0301.mp3",
+          "Seq": 1
+        },
+        {
+          "Content": "。",
+          "AudioUrl": "",
+          "Seq": 2
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c04",
+      "AudioCode": "z1198d1c04",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c04.mp3",
+      "EntryName": "狗使",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "sɿ",
+          "Symbol": "45"
+        }
+      ],
+      "TextContent": "“阿狗使大刀”的简称，意谓连大刀都举不起来，还想参加武举考试：你是屋底大，走啦外转就～道。",
+      "JsonContent": [
+        {
+          "Content": "“阿狗使大刀”的简称，意谓连大刀都举不起来，还想参加武举考试：",
+          "AudioUrl": "",
+          "Seq": 0
+        },
+        {
+          "Content": "你是屋底大，走啦外转就～道",
+          "AudioUrl": "/Audio/z1198d1/z1198d1c0401.mp3",
+          "Seq": 1
+        },
+        {
+          "Content": "。",
+          "AudioUrl": "",
+          "Seq": 2
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c05",
+      "AudioCode": "z1198d1c05",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c05.mp3",
+      "EntryName": "狗爬式",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "bo",
+          "Symbol": "31"
+        },
+        {
+          "Spell": "sei",
+          "Symbol": "323"
+        }
+      ],
+      "TextContent": "指一种没有经过正规训练的游泳姿势。",
+      "JsonContent": [
+        {
+          "Content": "指一种没有经过正规训练的游泳姿势。",
+          "AudioUrl": "",
+          "Seq": 0
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c06",
+      "AudioCode": "z1198d1c06",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c06.mp3",
+      "EntryName": "狗爬埭",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "bo",
+          "Symbol": "31"
+        },
+        {
+          "Spell": "da",
+          "Symbol": "11"
+        }
+      ],
+      "TextContent": "像狗一样爬来爬去：耘土～。",
+      "JsonContent": [
+        {
+          "Content": "像狗一样爬来爬去：耘土～。",
+          "AudioUrl": "",
+          "Seq": 0
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c07",
+      "AudioCode": "z1198d1c07",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c07.mp3",
+      "EntryName": "狗颓韧",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "dai",
+          "Symbol": "31"
+        },
+        {
+          "Spell": "ȵiaŋ",
+          "Symbol": "11"
+        }
+      ],
+      "TextContent": "形容很坚韧，含贬义。",
+      "JsonContent": [
+        {
+          "Content": "形容很坚韧，含贬义。",
+          "AudioUrl": "",
+          "Seq": 0
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c08",
+      "AudioCode": "z1198d1c08",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c08.mp3",
+      "EntryName": "狗窠",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "kʻu",
+          "Symbol": "33"
+        }
+      ],
+      "TextContent": "狗窝：男儿嘅寝室乱显乱，～恁。",
+      "JsonContent": [
+        {
+          "Content": "狗窝：",
+          "AudioUrl": "",
+          "Seq": 0
+        },
+        {
+          "Content": "男儿嘅寝室乱显乱，～恁",
+          "AudioUrl": "/Audio/z1198d1/z1198d1c0801.mp3",
+          "Seq": 1
+        },
+        {
+          "Content": "。",
+          "AudioUrl": "",
+          "Seq": 2
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c09",
+      "AudioCode": "z1198d1c09",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c09.mp3",
+      "EntryName": "狗嚼屙",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "jia",
+          "Symbol": "212"
+        },
+        {
+          "Spell": "u",
+          "Symbol": "42"
+        }
+      ],
+      "TextContent": "形容说话含混不清：渠做报告～恁，大家人沃覅嘅听。",
+      "JsonContent": [
+        {
+          "Content": "形容说话含混不清：",
+          "AudioUrl": "",
+          "Seq": 0
+        },
+        {
+          "Content": "渠做报告～恁，大家人沃覅嘅听",
+          "AudioUrl": "/Audio/z1198d1/z1198d1c0901.mp3",
+          "Seq": 1
+        },
+        {
+          "Content": "。",
+          "AudioUrl": "",
+          "Seq": 2
+        }
+      ]
+    },
+    {
+      "EntryCode": "z1198d1c10",
+      "AudioCode": "z1198d1c10",
+      "AudioUrl": "/Audio/z1198d1/z1198d1c10.mp3",
+      "EntryName": "狗癫恁",
+      "Phonetic": [
+        {
+          "Spell": "kau",
+          "Symbol": "45"
+        },
+        {
+          "Spell": "ti",
+          "Symbol": "33"
+        },
+        {
+          "Spell": "naŋ",
+          "Symbol": "212"
+        }
+      ],
+      "TextContent": "像狗那样发狂：你覅～癫起。",
+      "JsonContent": [
+        {
+          "Content": "像狗那样发狂：",
+          "AudioUrl": "",
+          "Seq": 0
+        },
+        {
+          "Content": "你覅～癫起",
+          "AudioUrl": "/Audio/z1198d1/z1198d1c1001.mp3",
+          "Seq": 1
+        },
+        {
+          "Content": "。",
+          "AudioUrl": "",
+          "Seq": 2
+        }
+      ]
+    }
+  ]
+}

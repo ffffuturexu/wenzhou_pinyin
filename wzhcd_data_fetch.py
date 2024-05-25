@@ -1,6 +1,6 @@
 
 
-# A Wenzhouness parallel corpus fetcher from Wenzhouhua Cidian
+# A Wenzhouness parallel corpus fetcher from Wenzhouhua Cidian (《温州话辞典》)
 # Author: Weilai Xu
 
 # [Authorised licence needed]
@@ -8,8 +8,24 @@
 import requests
 import os, json, sys
 from data.wzhcd_test import response_dict
+from utils.config import *
+from tool import *
 from urllib.parse import unquote, urlencode
 import base64
+import time
+import random
+import zhconv
+import logging
+
+logging.basicConfig(
+    filename='wzhcd_data_fetch.log',
+    filemode='w',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    encoding='utf-8'
+)
+
+logger = logging.getLogger()
 
 
 def get_target_value(key, dic, tmp_list):
@@ -90,19 +106,40 @@ def process_entry_list(entry_result_list):
 
     return processed
 
+def fetch_more_entry(WordHeadCode):
+    url = "https://wzh.wzlib.cn/HttpApi/DbWord/GetEntry"
+    data = {
+        "WordHeadCode": WordHeadCode
+    }
+
+    response = requests.post(url, data=data)
+    if response.status_code != 200:
+        logger.error(f'Error: {response.status_code}')
+        return
+    
+    response_dict = response.json()
+
+    MoreEntry_list = [response_dict['Data']]
+    parallel = process_entry_list(MoreEntry_list)
+
+    return parallel, response_dict["Data"]
+
 def fetch_wzhcd_data(wordName):
     url = "https://wzh.wzlib.cn/HttpApi/DbWord/GetWordDetail"
     data = {
-        "userID": "4e1515e588504361837e57829f5cb6cc",
+        "userID": UserID[0],
         "wordName": wordName,
     }
 
     response = requests.post(url, data=data)
     if response.status_code != 200:
-        print(f'Error: {response.status_code}')
+        logger.error(f'Error: {response.status_code}')
         return
 
     response_dict = response.json()
+    if response_dict['Result'] == False:
+        logger.error(f'Error: {response_dict["Info"]}, Word: {wordName}')
+        return
 
     SensesDetail_list = get_target_value("SensesDetail", response_dict, []) 
     SensesDetail_dict = {"SensesDetail": SensesDetail_list}
@@ -110,23 +147,57 @@ def fetch_wzhcd_data(wordName):
     # print(f'json content: {JsonContent_dict}')
     parallel = process_senses_list(JsonContent_dict, replaced_word=wordName) # the replaced word is the wordName
 
-    EntryDetail_list = get_target_value("EntryDetail", response_dict, [])
-    # print(f'entry detail list: {EntryDetail_list}')
-    parallel += process_entry_list(EntryDetail_list)
+    # EntryDetail_list = get_target_value("EntryDetail", response_dict, [])
+    # # print(f'entry detail list: {EntryDetail_list}')
+    # parallel += process_entry_list(EntryDetail_list)
 
-    return parallel
+    # if ShowMoreBtn is True, fetch more entries
+    WordHeadDetail = response_dict["Data"]["WordHeadDetail"]
+    for entry_dict in WordHeadDetail:
+        if entry_dict["ShowMoreBtn"] == True:
+            WordHeadCode = entry_dict["WordHeadCode"]
+            print(f'WordHeadCode: {WordHeadCode}')
+            more_parallel, more_entry_dict = fetch_more_entry(WordHeadCode)
+            if more_parallel is not None:
+                parallel += more_parallel
+        else:
+            EntryDetail_list = get_target_value("EntryDetail", entry_dict, [])
+            parallel += process_entry_list(EntryDetail_list)
+            more_entry_dict = None
+
+    return parallel, response_dict["Data"], more_entry_dict # (text, audio_url) pairs
 
 if __name__ == '__main__':
 
-    wordName_list = ["一", "黄", "狗"]
+    # wordName_list = ["一", "黄", "狗", "𬷕"]
+    # wordName_list = ["狗", "𬷕"]
+    # wordName_list = ["一", "狗"]
+
+    with open('wenzhounese.character_04.dict_zhs.yaml', 'r', encoding='utf-8') as fr:
+        wordName_list = [line.split('\t')[0] for line in fr.readlines()[21:] if line[0] != '#']
 
     parallel_list = []
-    for wordName in wordName_list:
-        print(wordName)
+    worddict_list = []
+    entrydict_list = []
+    for wordName in wordName_list[:10]:
+        # print(wordName)
+        logger.info(f'Processing word: {wordName} | {char2unicode(wordName)}')
 
-        parallel = fetch_wzhcd_data(wordName)
-        parallel_list += parallel
+        parallel, word_dict, entry_dict = fetch_wzhcd_data(wordName)
+        if parallel is not None:
+            parallel_list += parallel
+        if word_dict is not None:
+            worddict_list.append(word_dict)
+        if entry_dict is not None: 
+            entrydict_list.append(entry_dict)
+        pause_time = random.randint(1, 5) 
+        time.sleep(pause_time)
     
-    with open('wzhcd_corpus_2', 'w', encoding='utf-8') as f:
+    with open('wzhcd_corpus_6', 'w', encoding='utf-8') as f:
         f.writelines(parallel_list)
+        logger.info(f'the number of parallel sentences: {len(parallel_list)}')
+    
+    with open('data/original_dict/wzhcd_worddict.json', 'w', encoding='utf-8') as f, open('data/original_dict/wzhcd_entrydict.json', 'w', encoding='utf-8') as f2:
+        json.dump(worddict_list, f, ensure_ascii=False)
+        json.dump(entrydict_list, f2, ensure_ascii=False)
 
